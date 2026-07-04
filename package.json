@@ -1,0 +1,25 @@
+{
+  "name": "projeto-ordem-maker",
+  "version": "1.0.0",
+  "description": "> Esse projeto tem como finalidade, proporcionar uma ferramenta para criação de personagens de RPG para utilização no sistema de Ordem Paranormal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db/db.json --port 3000 --static ./public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OPedroHAF/Projeto-Ordem-Maker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/OPedroHAF/Projeto-Ordem-Maker/issues"
+  },
+  "homepage": "https://github.com/OPedroHAF/Projeto-Ordem-Maker#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.15"
+  }
+}
