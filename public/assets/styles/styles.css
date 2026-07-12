@@ -5,10 +5,36 @@
     width: 200px;
     height: 200px;
     margin: 0 auto;
-    outline: 2px solid red;
     overflow: hidden;
     border-radius: 50%;
+    box-shadow: 1px 1px 4px black;
 }
-#lulu{
-    outline: 2px solid red;
+.life-value-container{
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    box-shadow: 1px 1px 2px black;
+}
+.sanity-value-container{
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    box-shadow: 1px 1px 2px black;
+}
+.life-value-container p, .sanity-value-container p{
+    margin: 0;
+    padding: 0;
+}
+.content-body-criador_personagem{
+    background-color: var(--primary-color);
+}
+#container-character_life_sanity > :first-child{
+    gap: 80px;
+}
+
+.content-input-criador_personagem{
+    border-radius: 5%;
+}
+.content-input-criador_personagem-defesa-pe-deslocamento{
+    height: 100px;
 }
