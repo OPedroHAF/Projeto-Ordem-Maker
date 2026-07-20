@@ -38,3 +38,11 @@
 .content-input-criador_personagem-defesa-pe-deslocamento{
     height: 100px;
 }
+#origemTitulo{
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+#origemTexto{
+    height: 200px;
+}
